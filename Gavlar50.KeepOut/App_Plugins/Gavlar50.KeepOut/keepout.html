@@ -1,0 +1,17 @@
+﻿<div>
+    <p><strong>KeepOut is installed</strong></p>
+    <p>KeepOut works with member groups therefore your site will need to be configured with a members login area. A simple Umbraco site with a login area is available at <a href="https://github.com/Gavlar50/Umbraco8SiteWithMemberLogin" target="_blank">https://github.com/Gavlar50/Umbraco8SiteWithMemberLogin</a></p>
+    <hr/>
+    <p>How to</p>
+    <p>1. Create (or choose) a content page to serve as the 'No Access' page, with an appropriate message in the content.</p>
+    <p>2. Create (or choose) one or more member groups and assign members as required.</p>
+    <p>3. Create a rule under the KeepOut Security Rules node and give it a descriptive name.</p>
+    <p>3a. Set the 'No Access Page' to the page you configured in step 1.</p>
+    <p>3b. Set the 'Page To Secure' to the root node of the content you want to secure. This page and its descendants will be secured by the rule.</p>
+    <p>3c. Select one or more member groups to deny access.</p>
+    <p>3d. Choose a colour to denote the rule coverage in the node tree. If you prefer not to see the rule coverage, set the 'Show Rule Coverage' setting to off in the 'KeepOut Security Rules' node.</p>
+    <p>4. Save the rule.</p>
+    <hr/>
+    <p>The content is now secured when the member is logged in and will override any Umbraco security. If the page or one of its descendants grants access via Umbraco's Public Access restrictions, but is also covered by a KeepOut rule, the rule wins.</p>
+    <p>If you wish to integrate into your own project, the source is available at <a href="https://github.com/Gavlar50/Gavlar50.KeepOut" target="_blank">https://github.com/Gavlar50/Gavlar50.KeepOut</a></p>
+</div>

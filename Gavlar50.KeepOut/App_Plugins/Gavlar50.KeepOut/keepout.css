@@ -1,0 +1,95 @@
+﻿/* controls the font size of the colour label in the doc type config */ 
+span.color-label {
+    font-size: 0.8em;
+}
+
+/* ensures the visual rule border fits inside the div */
+.keepout {
+    box-sizing: border-box;
+}
+
+/* prevents cascading borders in page descendants */
+ul > li.has-children > ul > li.has-children {
+    border: 0 !important;
+}
+
+/* rule colours, .hasChildren for the affected content, .keepoutrule for the rule itself */
+.keepout-Sunflower1.has-children, .keepoutrule.keepout-Sunflower1 {
+    border: 6px dotted #ffce54;
+}
+
+.keepout-Sunflower2.has-children, .keepoutrule.keepout-Sunflower2 {
+    border: 6px dotted #f6bb42;
+}
+
+.keepout-Grass1.has-children, .keepoutrule.keepout-Grass1 {
+    border: 6px dotted #a0d468;
+}
+
+.keepout-Grass2.has-children, .keepoutrule.keepout-Grass2 {
+    border: 6px dotted #8cc152;
+}
+
+.keepout-Pinkrose1.has-children, .keepoutrule.keepout-Pinkrose1 {
+    border: 6px dotted #ec87c0;
+}
+
+.keepout-Pinkrose2.has-children, .keepoutrule.keepout-Pinkrose2 {
+    border: 6px dotted #d770ad;
+}
+
+.keepout-Mint1.has-children, .keepoutrule.keepout-Mint1 {
+    border: 6px dotted #48cfad;
+}
+
+.keepout-Mint2.has-children, .keepoutrule.keepout-Mint2 {
+    border: 6px dotted #37bc9b;
+}
+
+.keepout-Aqua1.has-children, .keepoutrule.keepout-Aqua1 {
+    border: 6px dotted #4fc1e9;
+}
+
+.keepout-Aqua2.has-children, .keepoutrule.keepout-Aqua2 {
+    border: 6px dotted #3bafda;
+}
+
+.keepout-Grey1.has-children, .keepoutrule.keepout-Grey1 {
+    border: 6px dotted #656d78;
+}
+
+.keepout-Grey2.has-children, .keepoutrule.keepout-Grey2 {
+    border: 6px dotted #434a54;
+}
+
+.keepout-Grapefruit1.has-children, .keepoutrule.keepout-Grapefruit1 {
+    border: 6px dotted #ed5565;
+}
+
+.keepout-Grapefruit2.has-children, .keepoutrule.keepout-Grapefruit2 {
+    border: 6px dotted #da4453;
+}
+
+.keepout-Bittersweet1.has-children, .keepoutrule.keepout-Bittersweet1 {
+    border: 6px dotted #fc6e51;
+}
+
+.keepout-Bittersweet2.has-children, .keepoutrule.keepout-Bittersweet2 {
+    border: 6px dotted #e9573f;
+}
+
+.keepout-Bluejeans1.has-children, .keepoutrule.keepout-Bluejeans1 {
+    border: 6px dotted #5d9cec;
+}
+
+.keepout-Bluejeans2.has-children, .keepoutrule.keepout-Bluejeans2 {
+    border: 6px dotted #4a89dc;
+}
+
+.keepout-Lavender1.has-children, .keepoutrule.keepout-Lavender1 {
+    border: 6px dotted #ac92ec;
+}
+
+.keepout-Lavender2.has-children, .keepoutrule.keepout-Lavender2 {
+    border: 6px dotted #967adc;
+}
